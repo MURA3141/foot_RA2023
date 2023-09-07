@@ -1,22 +1,15 @@
-# foot_RA2023
-# MTG 2023.9.5(Tue)
+Ageing 
+> data <- matrix(c( 6, 2, 14,25, 5, 211, 536, 1445, 1786, 532 ), ncol = 2)
+> rownames(data) <- c("Row1", "Row2", "Row3", "Row4", "Row5")
+> colnames(data) <- c("Col1", "Col2")
+> print(data)
+> test_result <- fisher.test(data)
+> print(test_result)
+>
+>  data <- matrix(c(48,3,4230,264 ), ncol = 2)
+>  rownames(data) <- c("Row1", "Row2")
+>  colnames(data) <- c("Col1", "Col2")
+>  print(data)
+>  test_result <- fisher.test(data)
+>  print(test_result)
 
-**Thema**<br>
-足専門クリニックにおける関節リウマチ患者の特徴とフットケア効果の検討
-
-**Aim**<br>
-当クリニックFCを受けているRAの特徴を定量化
-性別、年齢、足変形の有無（医師判断）、セルフケア能力（自施設作）
-
-FCの効果
-SAFE-Q　（FC前、FC1か月後）の比較
-２群間比較
-
-FC効果と患者特徴との関連性（FCの効果の結果から、効果のあった項目（従属変数）と患者特徴（①の項目　独立変数）との関連性をみる多変量分析）
-
-**Today Agenda**<br>
-1) Data Cleaning
-2)　Multivariate analysis
-
-目的の整理を実施し、どのような統計を利用するか、確認をしたい
-   
